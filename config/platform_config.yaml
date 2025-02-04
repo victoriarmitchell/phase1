@@ -1,0 +1,14 @@
+vertex_ai:
+  bucket: "gs://your-gcp-bucket"
+  model_path: "gs://your-gcp-bucket/models/fraud_model.pkl"
+  region: "us-central1"
+
+sagemaker:
+  bucket: "s3://your-sagemaker-bucket"
+  model_path: "s3://your-sagemaker-bucket/models/fraud_model.pkl"
+  region: "us-east-1"
+
+azure_ml:
+  storage_account: "your-azure-storage"
+  model_path: "azure://your-azure-storage/models/fraud_model.pkl"
+  region: "eastus"
