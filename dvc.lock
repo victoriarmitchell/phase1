@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: src/train.py
+      hash: md5
+      md5: 16f20c26878f4e8aba00f44655311123
+      size: 1795
+    outs:
+    - path: models/fraud_model.pkl
+      hash: md5
+      md5: 903b2997af63d0d6168bc9efa8af64f4
+      size: 1659
